@@ -1,0 +1,14 @@
+body {
+  padding: 2%;
+  color: #444;
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: #ed917d;
+}
+
+.button {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #e48236;
+  color: #fff;
+}

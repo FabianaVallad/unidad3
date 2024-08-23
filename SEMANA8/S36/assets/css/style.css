@@ -1,0 +1,23 @@
+.flex-container {
+  background-color: dodgerblue;
+  height: 90vh;
+  display: flex;
+  /*EJE PRINCIPAL DEL CONTENEDOR FLEX*/
+  flex-direction: row;
+  /*ALINEACIÓN DE LOS ELEMENTOS E VASE AL EJE PRINCIPAL*/
+  justify-content: flex-start;
+  align-items: center;
+  /*Flex wrap */
+  flex-wrap: wrap;
+  /*Alinear el contenido*/
+  align-content: normal;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width: fit-content;
+  height: fit-content;
+}
